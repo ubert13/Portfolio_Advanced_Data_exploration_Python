@@ -1,11 +1,12 @@
 # Portfolio: Zaawansowana Eksploracja Danych i Machine Learning
 
-Witaj w moim repozytorium! Jestem studentem studiów magisterskich na kierunku **Analiza Danych**. To repozytorium zawiera zbiór moich projektów analitycznych, w których wykorzystuję Pythona do rozwiązywania problemów z zakresu klasyfikacji, regresji, klasteryzacji oraz eksploracyjnej analizy danych (EDA).
+Witaj w moim repozytorium! Jestem studentem studiów magisterskich na kierunku **Analiza Danych**. To repozytorium zawiera zbiór moich projektów analitycznych, w których wykorzystuję Pythona do rozwiązywania problemów z zakresu klasyfikacji, regresji, klasteryzacji, eksploracyjnej analizy danych (EDA) oraz głębokiego uczenia (Deep Learning).
 
 ## Wykorzystywane Technologie (Tech Stack)
 * **Język:** Python
 * **Analiza i obróbka danych:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn, Imbalanced-learn (Oversampling)
+* **Deep Learning & Computer Vision:** TensorFlow, Keras, OpenCV
 * **Wizualizacja:** Matplotlib, Seaborn, statsmodels
 
 ---
@@ -26,6 +27,14 @@ Segmentacja profili ekspresji genów mierzonych w czasie oraz redukcja wymiarowo
 Kompleksowy opis statystyczny i wizualizacja parametrów technicznych samochodów oraz inżynieria cech.
 * **Kluczowe metody:** Statystyka opisowa, imputacja braków danych, analiza rozkładów (asymetria, kurtoza).
 * **Rozwiązane problemy:** Identyfikacja wartości odstających (Boxplots), badanie wielowymiarowych korelacji (Parallel Coordinates, macierz korelacji), profilowanie zużycia paliwa.
+
+### 4. [Predykcja Wytrzymałości Betonu za pomocą Sieci Neuronowych (MLP)](#) Modelowanie wytrzymałości betonu na ściskanie (csMPa) w oparciu o skład mieszanki i czas dojrzewania.
+* **Kluczowe metody:** Multi-Layer Perceptron (MLPRegressor), GridSearchCV, Scikit-Learn / TensorFlow.
+* **Rozwiązane problemy:** Standaryzacja skomplikowanych danych wejściowych (cement, woda, żużel, popiół lotny, superplastyfikator, kruszywa), optymalizacja hiperparametrów poprawiająca stabilność predykcji, radzenie sobie z nieliniowością procesu dojrzewania betonu (najlepszy model osiągnął wynik R²=0.88, deklasując modele oparte wyłącznie na ilości cementu).
+
+### 5. [Klasyfikacja Cyfr za pomocą Sieci Konwolucyjnych (CNN)](#) Wykorzystanie głębokich sieci neuronowych do ekstrakcji cech przestrzennych i klasyfikacji danych wizualnych na przykładzie zbioru MNIST.
+* **Kluczowe metody:** Konwolucyjne Sieci Neuronowe (CNN), TensorFlow, Keras, OpenCV.
+* **Rozwiązane problemy:** Preprocessing i normalizacja danych wizualnych, optymalizacja warstw splotowych (Conv2D) i łączących (MaxPooling) zapobiegająca przeuczeniu, a także ewaluacja wydajności modelu z użyciem macierzy pomyłek i krzywych uczenia.
 
 ---
 
