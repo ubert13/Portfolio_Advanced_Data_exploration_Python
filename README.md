@@ -28,11 +28,11 @@ Kompleksowy opis statystyczny i wizualizacja parametrów technicznych samochodó
 * **Kluczowe metody:** Statystyka opisowa, imputacja braków danych, analiza rozkładów (asymetria, kurtoza).
 * **Rozwiązane problemy:** Identyfikacja wartości odstających (Boxplots), badanie wielowymiarowych korelacji (Parallel Coordinates, macierz korelacji), profilowanie zużycia paliwa.
 
-### 4. [Predykcja Wytrzymałości Betonu za pomocą Sieci Neuronowych (MLP)](#) Modelowanie wytrzymałości betonu na ściskanie (csMPa) w oparciu o skład mieszanki i czas dojrzewania.
+### 4. [Predykcja Wytrzymałości Betonu za pomocą Sieci Neuronowych (MLP)](https://github.com/ubert13/Portfolio_Advanced_Data_exploration_Python/tree/main/sieciNeuronowe) Modelowanie wytrzymałości betonu na ściskanie (csMPa) w oparciu o skład mieszanki i czas dojrzewania.
 * **Kluczowe metody:** Multi-Layer Perceptron (MLPRegressor), GridSearchCV, Scikit-Learn / TensorFlow.
 * **Rozwiązane problemy:** Standaryzacja skomplikowanych danych wejściowych (cement, woda, żużel, popiół lotny, superplastyfikator, kruszywa), optymalizacja hiperparametrów poprawiająca stabilność predykcji, radzenie sobie z nieliniowością procesu dojrzewania betonu (najlepszy model osiągnął wynik R²=0.88, deklasując modele oparte wyłącznie na ilości cementu).
 
-### 5. [Klasyfikacja Cyfr za pomocą Sieci Konwolucyjnych (CNN)](#) Wykorzystanie głębokich sieci neuronowych do ekstrakcji cech przestrzennych i klasyfikacji danych wizualnych na przykładzie zbioru MNIST.
+### 5. [Klasyfikacja Cyfr za pomocą Sieci Konwolucyjnych (CNN)](https://github.com/ubert13/Portfolio_Advanced_Data_exploration_Python/tree/main/sieciKonwolucyjne)) Wykorzystanie głębokich sieci neuronowych do ekstrakcji cech przestrzennych i klasyfikacji danych wizualnych na przykładzie zbioru MNIST.
 * **Kluczowe metody:** Konwolucyjne Sieci Neuronowe (CNN), TensorFlow, Keras, OpenCV.
 * **Rozwiązane problemy:** Preprocessing i normalizacja danych wizualnych, optymalizacja warstw splotowych (Conv2D) i łączących (MaxPooling) zapobiegająca przeuczeniu, a także ewaluacja wydajności modelu z użyciem macierzy pomyłek i krzywych uczenia.
 
